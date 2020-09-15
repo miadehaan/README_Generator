@@ -62,20 +62,27 @@ return `# ${response.title}
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[![License]${badge(response.license)}
+
 
 
 ## Description 
 ${response.description}
 
 ## Table of Content
--[description](#Description)
--[installation](#Installation)
--[usage](#Usage)
--[license](#License)
--[contribution](#Contribution)
--[test](#Test)
--[questions](#Questions)
+-[Description](#Description)
+
+-[Installation](#Installation)
+
+-[Usage](#Usage)
+
+-[License](#License)
+
+-[Contribution](#Contribution)
+
+-[Test](#Test)
+
+-[Questions](#Questions)
+
 
 ## Installation
 ${response.installation}
@@ -96,34 +103,36 @@ ${response.test}
 If you have any questions, please contact me at the email below. Check out my Github portfolio for more of my projects!
 
 Github Username: ${response.username}
+
 Github Link: (https://${response.username}.github.io/)
+
 Github Email: (${response.email})
 
 `;
 
 }
 
-function badge(license) {
-    // Create license badges:
-    const badgeURL = '';
+// function badge(license) {
+//     // Create license badges:
+//     const badgeURL = '';
 
-    if (license === 'MIT') {
-        badgeURL = "(https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
-    }
-    else if (license === 'APACHE 2.0') {
-        badgeURL = "(https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-    }
-    else if (license === 'GPL 3.0') {
-        badgeURL = "(https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/gpl-license)";
-    }
-    else if (license === 'BSD 3') {
-        badgeURL = "(https://img.shields.io/badge/License-BSD%203-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
-    }
-    else {
-    }
+//     if (license === 'MIT') {
+//         badgeURL = "(https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
+//     }
+//     else if (license === 'APACHE 2.0') {
+//         badgeURL = "(https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+//     }
+//     else if (license === 'GPL 3.0') {
+//         badgeURL = "(https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/gpl-license)";
+//     }
+//     else if (license === 'BSD 3') {
+//         badgeURL = "(https://img.shields.io/badge/License-BSD%203-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+//     }
+//     else {
+//     }
 
-    return badgeURL;
-}
+//     return badgeURL;
+// }
 
 // function to initialize program
 function init() {
