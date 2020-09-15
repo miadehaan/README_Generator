@@ -6,38 +6,32 @@
 
 
 ## Description 
-this app does...
+asdf
 
 ## Table of Content
--[Description](#Description)
-
--[Installation](#Installation)
-
--[Usage](#Usage)
-
--[License](#License)
-
--[Contribution](#Contribution)
-
--[Test](#Test)
-
--[Questions](#Questions)
+- [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+- [License](#License)
+- [Contribution](#Contribution)
+- [Test](#Test)
+- [Questions](#Questions)
 
 
 ## Installation
-npm install
+asdf
     
 ## Usage
-x, y, z
+asdf
     
 ## License
 This application is covered under the GPL 3.0 license.
     
 ## Contributing
-mia
+asdf
     
 ## Test
-test it
+asdf
     
 ## Questions
 If you have any questions, please contact me at the email below. Check out my Github portfolio for more of my projects!
@@ -46,5 +40,5 @@ Github Username: miadehaan
 
 Github Link: (https://miadehaan.github.io/)
 
-Github Email: (mariannedehaan14@gmail.com)
+Github Email: (miadehaan14@gmail.com)
 

@@ -70,16 +70,11 @@ ${response.description}
 
 ## Table of Content
 - [Description](#Description)
-- [Installation](#Installation)
-
-- [Usage](#Usage)
-
+* [Installation](#Installation)
+* [Usage](#Usage)
 - [License](#License)
-
 - [Contribution](#Contribution)
-
 - [Test](#Test)
-
 - [Questions](#Questions)
 
 
