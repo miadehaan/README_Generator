@@ -70,8 +70,8 @@ ${response.description}
 
 ## Table of Content
 - [Description](#Description)
-* [Installation](#Installation)
-* [Usage](#Usage)
+- [Installation](#Installation)
+- [Usage](#Usage)
 - [License](#License)
 - [Contribution](#Contribution)
 - [Test](#Test)
@@ -96,11 +96,9 @@ ${response.test}
 ## Questions
 If you have any questions, please contact me at the email below. Check out my Github portfolio for more of my projects!
 
-Github Username: ${response.username}
-
-Github Link: (https://${response.username}.github.io/)
-
-Github Email: (${response.email})
+- Github Username: ${response.username}
+- Github Link: (https://${response.username}.github.io/)
+- Github Email: (${response.email})
 
 `;
 
