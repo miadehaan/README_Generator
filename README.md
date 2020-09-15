@@ -1,6 +1,16 @@
 # README_Generator
 
+## Description
+
 It's neccessary to have a formatted README for open source Github projects. This command-line application makes it easy to generate a README file for your specifc application. 
+
+## Table of Contents
+- [Description](#Description)
+- [Instructions](#Instructions)
+- [Technologies Used](#TechnologiesUsed)
+- [Installation](#Installation)
+- [Example of Functioning README Generator](#Example)
+- [Questions](#Questions)
 
 ## Instructions
 
@@ -38,7 +48,7 @@ node index.js
 This will prompt the user with a series of questions regarding their Github project, which will then be added to the README file that is generated.  
 
 
-## Example of Functioning README Generator
+## Example
 
 ![example]()
 

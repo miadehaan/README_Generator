@@ -66,7 +66,7 @@ return `# ${response.title}
 ## Description 
 ${response.description}
 
-## Table of Content
+## Table of Contents
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
