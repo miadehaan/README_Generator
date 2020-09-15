@@ -69,19 +69,18 @@ return `# ${response.title}
 ${response.description}
 
 ## Table of Content
--[Description](#Description)
+- [Description](#Description)
+- [Installation](#Installation)
 
--[Installation](#Installation)
+- [Usage](#Usage)
 
--[Usage](#Usage)
+- [License](#License)
 
--[License](#License)
+- [Contribution](#Contribution)
 
--[Contribution](#Contribution)
+- [Test](#Test)
 
--[Test](#Test)
-
--[Questions](#Questions)
+- [Questions](#Questions)
 
 
 ## Installation
