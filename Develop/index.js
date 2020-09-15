@@ -19,7 +19,7 @@ const questions = [
     {
         type: "input",
         message: "What are the installation instructions?",
-        name: "installation instructions"
+        name: "installation"
     },
     {
         type: "input",
@@ -44,13 +44,13 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is the name of the user?",
-        name: "userName"
+        message: "What is your Github username?",
+        name: "username"
     },
     {
         type: "input",
         message: "What is your Github email address?",
-        name: "githubEmail"
+        name: "email"
     }
 
 ];
@@ -58,37 +58,71 @@ const questions = [
 // function to write README file
 function writeToFile(response) {
     // Use Template Literals to write in the README file
-    return `
-    # ${response.title}
+return `# ${response.title}
 
-    #Description 
-    ${response.description}
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-    # Table of Content
-    -[description](#description)
-    -[installation](#installation)
-    -[usage](#usage)
-    -[licenses](#licenses)
-    -[contribution](#contribution)
-    -[test](#test)
-    -[username](#username)
-    -[githubEmail](#githubEmail)
+[![License]${badge(response.license)}
 
-    #Installation
+
+## Description 
+${response.description}
+
+## Table of Content
+-[description](#Description)
+-[installation](#Installation)
+-[usage](#Usage)
+-[license](#License)
+-[contribution](#Contribution)
+-[test](#Test)
+-[questions](#Questions)
+
+## Installation
+${response.installation}
     
-    #Usage
+## Usage
+${response.usage}
     
-    #License
+## License
+This application is covered under the ${response.license} license.
     
-    #Contributing
+## Contributing
+${response.contribution}
     
-    #Tests
+## Test
+${response.test}
     
-    #Questions
+## Questions
+If you have any questions, please contact me at the email below. Check out my Github portfolio for more of my projects!
 
+Github Username: ${response.username}
+Github Link: (https://${response.username}.github.io/)
+Github Email: (${response.email})
 
-    `;
+`;
 
+}
+
+function badge(license) {
+    // Create license badges:
+    const badgeURL = '';
+
+    if (license === 'MIT') {
+        badgeURL = "(https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
+    }
+    else if (license === 'APACHE 2.0') {
+        badgeURL = "(https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    }
+    else if (license === 'GPL 3.0') {
+        badgeURL = "(https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/gpl-license)";
+    }
+    else if (license === 'BSD 3') {
+        badgeURL = "(https://img.shields.io/badge/License-BSD%203-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+    }
+    else {
+    }
+
+    return badgeURL;
 }
 
 // function to initialize program
