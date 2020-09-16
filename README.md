@@ -60,4 +60,4 @@ If you have any questions, please contact me at the email below. Check out my Gi
 
 - Github Username: miadehaan
 - Github Link: (https://miadehaan.github.io/)
-- Github Email: (miadehaan14@gmail.com)
+- Github Email: (mariannedehaan14@gmail.com)
