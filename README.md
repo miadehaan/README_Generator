@@ -52,7 +52,7 @@ This will prompt the user with a series of questions regarding their Github proj
 
 ![gif](./Assets/example_application.gif)
 
-![View Video Example Here](https://drive.google.com/file/d/1AkyPkBjKF9lSmM3LzbDlVsOYEHQkhxbB/view)
+[View Full Video Example Here](https://drive.google.com/file/d/1AkyPkBjKF9lSmM3LzbDlVsOYEHQkhxbB/view)
 
 
 ## Questions
