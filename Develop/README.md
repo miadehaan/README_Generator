@@ -1,12 +1,12 @@
 # Project 1
 
-[![License](https://img.shields.io/badge/License-BSD%203-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/gpl-license)
 
 
 ## Description 
-description
+Add description here..
 
-## Table of Content
+## Table of Contents
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
@@ -17,24 +17,24 @@ description
 
 
 ## Installation
-install
+Installation instructions...
     
 ## Usage
-asdf
+This project will be used for...
     
 ## License
-This application is covered under the BSD 3 license.
+This application is covered under the GPL 3.0 license.
     
 ## Contributing
-mia
+Mia, Zella, and Jack
     
 ## Test
-test it
+Test it out...
     
 ## Questions
 If you have any questions, please contact me at the email below. Check out my Github portfolio for more of my projects!
 
 - Github Username: miadehaan
 - Github Link: (https://miadehaan.github.io/)
-- Github Email: (miadehaan14@gmail.com)
+- Github Email: (mariannedehaan14@gmail.com)
 

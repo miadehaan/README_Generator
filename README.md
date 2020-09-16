@@ -50,7 +50,9 @@ This will prompt the user with a series of questions regarding their Github proj
 
 ## Example
 
-![example]()
+![gif](./Assets/example_application.gif)
+
+![View Video Example Here](https://drive.google.com/file/d/1AkyPkBjKF9lSmM3LzbDlVsOYEHQkhxbB/view)
 
 
 ## Questions
